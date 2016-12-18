@@ -20,7 +20,6 @@
         @mixin atSmall {
             font-size: 1.875rem;
         }
-
     }
 
     &--narrow {
@@ -39,5 +38,8 @@
 
     &--b-margin-large {
         margin-bottom: 1.6em;
+    }
+    &--no-t-margin {
+    margin-top: 0;
     }
 }
